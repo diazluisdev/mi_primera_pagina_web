@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+  <!-- Meta datos de la pagina web para facilitar la busqueda y el response-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio personal</title>
+    <!-- etiqueta link para importar archivos o recursos del directorio del proyecto-->
+    <link rel="stylesheet" href="styles/style.css"/>
+  </head>
+  <!-- cuerpo de la pagina web que tendra todo el contenido-->
+  <body>
+    <header class="header">
+      <nav class="header__menu">
+        <a class="header__menu__link" href="index.html">Home</a>
+        <a class="header__menu__link" href="/view/about.html">Sobre mi</a>
+        <a class="header__menu__link" href="/view/cv.html"> Curriculum</a>
+      </nav>
+    </header>
+    <!-- etiqueta main para el contenido principal de la pagina web-->
+    <main class="presentacion">
+      <!-- section divide el contenido de una página web en secciones lógicas y significativas.-->             
+      <section class="presentacion__seccion">
+        <!-- h1 etiqueta para titulos-->
+        <h1 class="presentacion__seccion__titulo">Diseñando el Futuro, <strong class="color_negrita">un Pixel a la Vez.</strong></h1>
+        <!-- p etiqueta para parrafos y strong para resaltar textos o palabras (negrita)-->
+        <p class="presentacion__seccion__texto">
+          Bienvenidos a mi sitio web, donde la creatividad se encuentra con la tecnología. Soy Luis Felipe Diaz Cabana, y me dedico a construir interfaces de usuario intuitivas y eficientes.
+          Desde la planificación hasta la implementación, cada proyecto es una oportunidad para innovar y aprender.
+          Descubre mis trabajos y contáctame para colaborar en tu próximo desafío digital.
+          
+        </p>
+        <!-- etiqueta div es el contenedor genérico para el contenido. 
+            No tiene efecto en el contenido o en el diseño hasta que se le aplica un estilo de alguna manera usando CSS-->
+        <div class="presentacion__enlaces">
+            <h2 class="presentacion__enlaces__titulo">Enlaces a mis redes sociales:</h2>
+            <a class="presentacion__enlaces__link" href="https://github.com/diazluisdev">
+            <img src="assets/github.png" alt="logo github">
+            GitHub</a>          
+          <a class="presentacion__enlaces__link" href="https://www.linkedin.com/in/luisfelipediazc/">
+            <img src="assets/linkedin.png" alt="logo Linkedin">
+            Linkedin</a>
+
+        </div>           
+      </section>     
+      <img class="foto__biografia" src="/assets/foto fondo color.png" alt="foto personal" />  
+      </main>
+
+      <!-- Footer es para contenido de pie de pagina y puede contener informacion de contacto o derechos de autor -->
+    <footer class="footer">
+      <p>&copy; 2024 Luis Felipe Diaz Cabana. Todos los derechos reservados.</p>
+    </footer>
+  </body>
+</html>

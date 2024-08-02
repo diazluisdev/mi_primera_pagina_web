@@ -1,0 +1,165 @@
+
+/*Importando tipo de fuente desde la api de google*/
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*Variables de las fuentes y colores usados en la pagina web de hoja de vida */
+:root{
+
+    --color-primario: #071952;
+    --color-segundario:#22D4F2;
+    --color-terciario: #f5f7f8;
+    --fuente-montserrat: 'Montserrat', sans-serif;
+    --fuente-krona-one: 'Krona One', sans-serif;   
+
+}
+
+/* Para eliminar el margin y padding por defecto del navegador*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: var(--color-primario);
+    color: var(--color-terciario); 
+    box-sizing: border-box;    
+}
+
+.header{
+
+    padding: 2% 0% 0% 5%;
+
+}
+
+.header__menu{
+
+display: flex;
+gap: 80px;
+
+}
+
+.header__menu__link{
+
+    font-family:var(--fuente-montserrat);
+    font-weight:600px;
+    font-size:1.5rem;
+    text-decoration:none;
+    color:var(--color-segundario);
+
+}
+
+.div{
+    text-align: center;
+    height: 80px ;  
+}
+
+.cv__titulo{
+
+    font-size: 2.25rem;
+    font-family: var(--fuente-krona-one);
+    font-weight: 300;
+    padding: 5% 3% 3% 3%; 
+    
+
+}
+
+
+.cv {
+
+padding: 2% 2%;
+flex-direction: column;
+display: flex;
+align-items:center;
+margin: 4%;
+justify-content: space-between;
+gap: 20px;
+
+
+}
+
+.cv__sesion{
+    width:80%;
+    display:flex;
+    align-items: center;
+    gap: 20px;
+   
+}
+
+.img__cv{
+
+    border-radius: 1rem; 
+    width: 200px;
+    flex:1;
+    }
+
+
+.color_negrita {
+    color: var(--color-segundario);
+}
+
+
+.cv__sesion__titulo{
+
+    font-size:1.25rem;
+    font-family:var(--fuente-krona-one);
+    color:var(--color-segundario);
+    width: 20px;
+    margin-right: 150px ;
+}
+
+
+.cv__lista{
+
+
+font-size: 1rem;
+flex:1;
+text-align: justify;
+padding: 1% 1%;
+}
+
+.cv__item{
+
+margin: 10px;
+font-family: var(--fuente-montserrat);
+}
+
+
+
+
+.footer{
+
+background-color: var(--color-segundario);
+padding: 34px;
+color: #000000;
+text-align: center;
+font-family: var(--fuente-montserrat);
+font-size: 1.5rem;
+font-weight:400;
+
+
+}
+
+@media (max-width:1200px){
+
+    .header{
+
+        padding: 10%;
+    }
+
+    .header__menu{
+
+        justify-content: center;
+    }
+
+    .cv{
+
+        flex-direction: column-reverse;
+    }
+
+    .cv__sesion{
+
+    width: auto;
+
+    }
+
+}
