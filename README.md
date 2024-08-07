@@ -1,4 +1,4 @@
-# ¡Hola, bienvenidos a mi proyecto de portafolio!
+# ¡Hola, bienvenidos a mi proyecto de portafolio personal!
 
 <a href="https://ibb.co/5FCFbVf"><img src="https://i.ibb.co/k1z1NFW/Captura-de-pantalla-de-la-pagina-web.jpg" alt="Captura-de-pantalla-de-la-pagina-web" border="0" /></a>
 
